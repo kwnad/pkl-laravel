@@ -114,40 +114,6 @@ class LatihanController extends Controller
             ]
         ];
 
-        // foreach ($a as $data)
-        // {
-        //     foreach ($data['belanja'] as $key => $value) {
-        //         $harga = array_sum($value['harga']);
-        //     }
-        // }
-
-        // foreach ($a['harga1'] as $value)
-        // {
-        //     $harga1 = array_sum($value['harga1']);
-        //     if ($harga1 >= 500000) {
-        //         $cashback = $harga1 * 0.1;
-        //     } else if ($harga1 >= 250000) {
-        //         $cashback = $harga1 * 0.05;
-        //     } else {
-        //         $cashback = $harga1 * 0;
-        //     }
-        // }
-
-        // foreach ($a['harga2'] as $value)
-        // {
-        //     $harga2 = array_sum($value['harga2']);
-        //     if ($harga2 >= 500000) {
-        //         $cashback2 = $harga2 * 0.1;
-        //     } else if ($harga2 >= 250000) {
-        //         $cashback2 = $harga2 * 0.05;
-        //     } else {
-        //         $cashback2 = $harga2 * 0;
-        //     }
-        // }
-
-        // $total = $harga1 - $cashback;
-        // $total2 = $harga2 - $cashback2;
-
         return view('/pages1.challenge', ['challenge' => $a]);
     }
 }
