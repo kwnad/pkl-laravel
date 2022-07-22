@@ -96,24 +96,24 @@ class LatihanController extends Controller
         return view('/pages1.televisi', ['televisi' => $a]);
     }
 
-    public function challenge()
-    {
-        $a = [
-            ['nama' => 'Alfian', 'belanja' => [
-                    ['barang' => 'sepatu', 'harga' => 250000],
-                    ['barang' => 'baju', 'harga' => 100000],
-                    ['barang' => 'celana', 'harga' => 150000],
-                    ['barang' => 'kupluk', 'harga' => 100000],
-                ]
-            ],
-            ['nama' => 'Dida', 'belanja' => [
-                    ['barang' => 'topi', 'harga' => 100000],
-                    ['barang' => 'baju', 'harga' => 75000],
-                    ['barang' => 'celana', 'harga' => 125000],
-                ]
-            ]
-        ];
+    // public function challenge()
+    // {
+    //     $a = [
+    //         ['nama' => 'Alfian', 'belanja' => [
+    //                 ['barang' => 'sepatu', 'harga' => 250000],
+    //                 ['barang' => 'baju', 'harga' => 100000],
+    //                 ['barang' => 'celana', 'harga' => 150000],
+    //                 ['barang' => 'kupluk', 'harga' => 100000],
+    //             ]
+    //         ],
+    //         ['nama' => 'Dida', 'belanja' => [
+    //                 ['barang' => 'topi', 'harga' => 100000],
+    //                 ['barang' => 'baju', 'harga' => 75000],
+    //                 ['barang' => 'celana', 'harga' => 125000],
+    //             ]
+    //         ]
+    //     ];
 
-        return view('/pages1.challenge', ['challenge' => $a]);
-    }
+    //     return view('/pages1.challenge', ['challenge' => $a]);
+    // }
 }
